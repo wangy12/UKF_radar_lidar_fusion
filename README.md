@@ -30,4 +30,4 @@ By analysing the output radar NIS, the NIS of radar measurements are between 0.3
 
 ## Sensor Fusion
 
-As being pointed out, the update of state/covariance from the lidar is linear and can use KF instead of UKF, which saves compuational load and resources. Therefore, I use the update equations in KF for lidar. The same RMSEs are achieved compared to using UKF for lidar update.
+As is pointed out, the update of state/covariance from the lidar is linear and can use KF instead of UKF, which saves computational load and resources. Therefore, I use the update equations in KF for lidar. The same RMSEs are achieved compared to using UKF for lidar update.
